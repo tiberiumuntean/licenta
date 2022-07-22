@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Licenta"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".trainerschedule.EditAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminClubActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminMembershipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".personalinfo.EditTrainerPersonalInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".clientschedule.ClientScheduleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".signup.SignUpTrainerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".personalinfo.PasswordResetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fitnessclubs.ChooseFitnessClubActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBRBIgCEIK_SEOX2Q9h1zH_lqMV7jBsgW4" />
+
+        <activity
+            android:name=".trainerschedule.NewAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".trainerschedule.TrainerScheduleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".client.ClientProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".client.ClientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fitnessclass.ClassScheduleBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".membership.BuyMembershipActivityV2"
+            android:exported="false" />
+        <activity
+            android:name=".membership.BuyMembershipActivityV1"
+            android:exported="false" />
+        <activity
+            android:name=".trainer.TrainerProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".paymentshistory.PaymentsHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".personalinfo.EditPersonalInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".membership.MembershipsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_memberships"
+            android:theme="@style/Theme.Licenta.NoActionBar" />
+        <activity
+            android:name=".fitnessclass.FitnessClassesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".club.ClubInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".club.ClubActivity"
+            android:exported="false" />
+        <activity
+            android:name=".membership.YourMembershipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".trainer.TrainersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".personalinfo.PersonalInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".membercard.MemberCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".signup.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fitnessclubs.FitnessClubsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".launchscreen.FirstScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
